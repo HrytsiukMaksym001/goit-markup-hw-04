@@ -582,11 +582,18 @@ color: var(--web-link-color);
     text-align: center;
    }
    .customers-item{
-       outline: tomato;
+       --indent: 5;
    }
    ul.customers-list.grid{
     padding-left: 0px;
 
+   }
+   .customers-section{
+       padding-bottom: 94px;
+   }
+   .customers-link:hover,
+   .customers-link:focus {
+     background-color: tomato;
    }
  
  
