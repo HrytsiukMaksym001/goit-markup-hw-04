@@ -377,15 +377,13 @@ color: var(--web-link-color);
  .item-header-group, 
  .footer-item, .team-item, .about-item,
   .description-item, .item-navigation, 
-  .filter-item, .group-item, .customers-item, .team-social{
+  .filter-item, .group-item, .customers-item, .social list{
      list-style: none;
      
     }
-/* ================social============================ */
-.social-link{
-text-decoration: none;
-}
+
       
+
 
      /* footer */
     .footer-link, .footer-tel{
@@ -468,6 +466,13 @@ text-decoration: none;
     .link-navigation:focus{
     color: var(--web-link-color);
     }
+        /* ================  social icons============================ */
+        .social-link {
+            text-decoration: none;
+        }
+       .social list {
+    display: flex;
+       }
 
 
     /* портфолио */
