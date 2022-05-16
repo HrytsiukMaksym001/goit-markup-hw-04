@@ -525,6 +525,7 @@ color: var(--web-link-color);
             background-color: var(--social-icon-hover-color)
             border-radius: 50%;
         }
+        
         .social-link:hover,
         .social-link:focus{
         background-color: var(--hover-color);
